@@ -1,6 +1,6 @@
 #### How to set up
 ```
-git clone https://github.com/robin-sitohang/wdio_mobile_apps.git
+git clone https://github.com/robin-sitohang/wdio_mobile_swaglabs_apps.git
 
 npm install
 ```
@@ -27,7 +27,7 @@ Before you begin, ensure you have the following installed:
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/robin-sitohang/wdio_mobile_apps.git
+git clone https://github.com/robin-sitohang/wdio_mobile_swaglabs_apps.git
 cd wdio_mobile_apps
 ```
 
