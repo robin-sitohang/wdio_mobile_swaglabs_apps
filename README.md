@@ -74,12 +74,12 @@ UDID=R9RW102YXZX  # Replace with your device UDID
 #### b. Update APK Path
 1. Update the APK path in `.env` file to match your local path:
 ```bash
-APP_PATH=c:/Users/trias/OneDrive/Dokumen/apk/Kompasid_Turvis.apk
+APP_PATH=c:/Users/trias/OneDrive/Dokumen/apk/Android.SauceLabs.Mobile.Sample.app.2.4.0.apk
 ```
 
 2. Verify the APK path using Git Bash:
 ```bash
-ls -l /c/Users/trias/OneDrive/Dokumen/apk/Kompasid_Turvis.apk
+ls -l /c/Users/trias/OneDrive/Dokumen/apk/Android.SauceLabs.Mobile.Sample.app.2.4.0.apk
 ```
 
 #### c. Set Up APP_PACKAGE and APP_ACTIVITY
