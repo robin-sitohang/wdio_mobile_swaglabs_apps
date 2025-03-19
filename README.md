@@ -111,6 +111,10 @@ npm run test
   ```bash
   npm run test:tag --tag=<tag_name>
   ```
+  or
+  ```bash
+  npm run test -- --cucumberOpts.tagExpression='@tag_name'
+  ```
 
 - Generate HTML report:
   ```bash
