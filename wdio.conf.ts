@@ -10,7 +10,7 @@ export const config: WebdriverIO.Config = {
     port: 4723,
     
     specs: [
-        process.env.SPEC ? `./features/${process.env.SPEC}.feature` : './features/**/*.feature'
+        process.env.SPEC ? `./test/feature/${process.env.SPEC}.feature` : './test/feature/**/*.feature'
     ],
     exclude: [],
     
@@ -60,7 +60,7 @@ export const config: WebdriverIO.Config = {
     ],
 
     cucumberOpts: {
-        require: ['./features/step-definitions/*.ts'],
+        require: ['./test/stepdefinitions/*.ts'],
         backtrace: false,
         requireModule: [],
         dryRun: false,

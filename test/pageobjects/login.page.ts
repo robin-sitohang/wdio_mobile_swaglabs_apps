@@ -1,5 +1,5 @@
 import { $ } from '@wdio/globals'
-import Page from './page.js';
+import Page from './page';
 
 class LoginPage extends Page {
     private get inputUsername() {

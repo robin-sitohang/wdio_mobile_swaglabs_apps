@@ -1,5 +1,5 @@
 import { $ } from '@wdio/globals'
-import Page from './page.js';
+import Page from './page';
 
 class ProductPage extends Page {
     private get cartBadge() {
@@ -21,4 +21,4 @@ class ProductPage extends Page {
     }
 }
 
-export default new ProductPage();
+export default new ProductPage();
