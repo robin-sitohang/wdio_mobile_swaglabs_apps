@@ -109,7 +109,7 @@ export const config: WebdriverIO.Config = {
     },
 
     afterScenario: async function (_world, _result) {
-        await driver.terminateApp(process.env.APP_PACKAGE as string);
+        await driver.terminateApp(process.env.APP_PACKAGE as string, {});
     },
 
     onComplete: async function() {
